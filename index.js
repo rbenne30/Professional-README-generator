@@ -39,7 +39,27 @@ const questions = [
     {
         type: "input",//based on the documentation the kind of question "input, checkbox"
         name: "description",//the name of the question
-        message: "what is the name of your project?"  //what the user sees 
+        message: "Describe your project"  //what the user sees 
+    },
+    {
+        type: "input",//based on the documentation the kind of question "input, checkbox"
+        name: "installtion instuctions",//the name of the question
+        message: "Please provide step by step installation instructions"  //what the user sees 
+    },
+    {
+        type: "input",//based on the documentation the kind of question "input, checkbox"
+        name: "usage information",//the name of the question
+        message: "Please provide use instuctions"  //what the user sees 
+    },
+    {
+        type: "input",//based on the documentation the kind of question "input, checkbox"
+        name: "contribution guidelines",//the name of the question
+        message: "Please provide guidelines for contributing?"  //what the user sees 
+    },
+    {
+        type: "input",//based on the documentation the kind of question "input, checkbox"
+        name: "test instructions",//the name of the question
+        message: "Please provide instructions on how to test this project?"  //what the user sees 
     },
 ];
 

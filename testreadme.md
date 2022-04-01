@@ -1,3 +1,6 @@
 # ryanne
-  type
-
+  # create README 
+  # undefined
+  # undefined
+  # undefined
+  # undefined 
