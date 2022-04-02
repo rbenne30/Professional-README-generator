@@ -2,7 +2,9 @@
 var inquirer = require('inquirer');
 const generateMarkdown  = require("./utils/generateMarkdown")
 const fs=require ("fs")
-const path = require ("path")
+const path = require ("path");
+const { Recoverable } = require('repl');
+const { Resolver } = require('dns');
 
 // const start = inquirer
 //     .prompt([
@@ -68,7 +70,6 @@ const questions = [
 function writeToFile(fileName, data) { 
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(answers => {
