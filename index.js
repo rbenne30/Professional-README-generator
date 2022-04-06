@@ -5,6 +5,8 @@ const fs=require ("fs")
 const path = require ("path");
 const { Recoverable } = require('repl');
 const { Resolver } = require('dns');
+const { title } = require('process');
+const Choices = require('inquirer/lib/objects/choices');
 
 // const start = inquirer
 //     .prompt([
@@ -58,12 +60,31 @@ const questions = [
         name: "contributionguidelines",//the name of the question
         message: "Please provide guidelines for contributing?"  //what the user sees 
     },
-    {
-        type: "input",//based on the documentation the kind of question "input, checkbox"
-        name: "testinstructions",//the name of the question
-        message: "Please provide instructions on how to test this project?"  //what the user sees 
-    }
+    {   
+        type: "list",//based on the documentation the kind of question "input, checkbox"
+        name: "license",//the name of the question
+        message: "Which license did you use?" , //what the user sees 
+        //make choices be an array of objects 
+        //each object has value equal to the link and the name equal to the name 
+        // choices: [ 'agpl', 'apache', 'mit', 'no license'] 
+        choices: [
+            {
+               value:"[License: AGPL ](https://img.shields.io/badge/License-AGPL-blue.svg](https://www.gnu.org/licenses/agpl-3.0)",
+               name: "agpl"
+            },
+           {
+               value: "[License; APACHE](https://img.shields.io/badge/License-APACHE-green.svg()](https://opensource.org/licenses/Apache-2.0)",
+               name: "apache"
+           },
+           {
+            value: "[License; MIT](https://img.shields.io/badge/License-MIT-yellow.svg()](https://img.shields.io/badge/License-MIT-yellow.svg)",
+            name: "mit" 
+           },
+        ]
+    },
 ]
+
+
 
 
 // TODO: Create a function to write README file
@@ -80,3 +101,16 @@ function init() {
 
 // Function call to initialize app
 init();
+// then(readmeData => {
+//     console.log(readmeData);
+//     return generateMarkdown(readmeData);
+// })
+// .then(readmeMD => {
+//     return fs.writeToFile(readmeMD);
+// })
+// .then(writeFileResponse => {
+//     console.log(writeFileResponse.message);
+// })
+// .catch(err => {
+//     console.log(err);
+// })
