@@ -6,6 +6,7 @@ As a developer I created a Readme generator so I can quickly create a profession
 Below is README generator tutorial video: 
 [!Watch the Video]
 (https://youtu.be/KHyesLJnPHQ)
+![Preview image](/Users/ryannebennett/Documents/HOMEWORK 9/Professional-README-generator/dist/Screen Shot 2022-04-10 at 8.08.07 PM.png)
 README generator link: 
 [Git Clone]
 (https://github.com/rbenne30/Team-Profile-Generator-.git)
@@ -15,4 +16,5 @@ After Installation open VS code then open intergrated terminal and run the code 
 I will not be accepting Contributions at this time 
 ##### Questions 
 Please contact with any questions: 
-[email](ryannebennett1@outlook.com)
+[Email]
+(ryannebennett1@outlook.com)
