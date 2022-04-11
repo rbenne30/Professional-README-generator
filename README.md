@@ -6,7 +6,7 @@ As a developer I created a Readme generator so I can quickly create a profession
 Below is README generator tutorial video: 
 [!Watch the Video]
 (https://youtu.be/KHyesLJnPHQ)
-![README](README PREVIEW.png)
+![README](READMEPREVIEW.png)
 README generator link: 
 [Git Clone]
 (https://github.com/rbenne30/Team-Profile-Generator-.git)
