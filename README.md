@@ -1,11 +1,11 @@
-# test
+# Professional-Readme-generator 
   ## Description
-  # test
+  # creating a readme generator 
   ## Installation
-  # test
+  # type npm i then node index.js 
   ## Usage
-  # test
+  # answers the questions when prompted and it will create a Readme based on answers 
   ## Contribution
-  # test
+  # no contributors for this project 
   ## Test
   # undefined 
