@@ -6,7 +6,7 @@ As a developer I created a Readme generator so I can quickly create a profession
 Below is README generator tutorial video: 
 [!Watch the Video]
 (https://youtu.be/KHyesLJnPHQ)
-![Preview image](/Users/ryannebennett/Documents/HOMEWORK 9/Professional-README-generator/dist/Screen Shot 2022-04-10 at 8.08.07 PM.png)
+![README](README PREVIEW.png)
 README generator link: 
 [Git Clone]
 (https://github.com/rbenne30/Team-Profile-Generator-.git)
